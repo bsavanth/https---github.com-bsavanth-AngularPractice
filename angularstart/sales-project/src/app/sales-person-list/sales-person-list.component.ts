@@ -16,10 +16,10 @@ export class SalesPersonListComponent implements OnInit {
     ngOnInit(): void {      
     }
 
-    salesPersonList:SalesPerson[]=[ new SalesPerson("a", "b", "c", 1),
-                                    new SalesPerson("m", "n", "o", 2),
-                                    new SalesPerson("i", "j", "k", 3),
-                                    new SalesPerson("x", "y", "z", 4) ]
+    salesPersonList:SalesPerson[]=[ new SalesPerson("a", "b", "c", 100),
+                                    new SalesPerson("m", "n", "o", 200),
+                                    new SalesPerson("i", "j", "k", 300),
+                                    new SalesPerson("x", "y", "z", 400) ]
 
   
 
