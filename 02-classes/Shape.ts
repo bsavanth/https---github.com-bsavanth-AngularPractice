@@ -1,5 +1,6 @@
 export class Shape{
 
+
     constructor(private _X:Number, private _Y:Number)
     {
 

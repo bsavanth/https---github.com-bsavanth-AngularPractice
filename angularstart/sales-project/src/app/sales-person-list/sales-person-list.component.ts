@@ -1,0 +1,32 @@
+import { Component, OnInit } from '@angular/core';
+import { SalesPerson } from './sales-person';
+
+@Component({
+  selector: 'app-sales-person-list',
+  templateUrl: './sales-person-list.component.html',
+  styleUrls: ['./sales-person-list.component.css']
+})
+export class SalesPersonListComponent implements OnInit {
+
+    constructor()
+    {
+
+    }
+
+    ngOnInit(): void {      
+    }
+
+    salesPersonList:SalesPerson[]=[ new SalesPerson("a", "b", "c", 1),
+                                    new SalesPerson("m", "n", "o", 2),
+                                    new SalesPerson("i", "j", "k", 3),
+                                    new SalesPerson("x", "y", "z", 4) ]
+
+  
+
+
+
+   
+
+
+}
+
